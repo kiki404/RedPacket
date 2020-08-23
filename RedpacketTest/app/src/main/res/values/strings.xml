@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RedpacketTest</string>
+    <string name="des">开启服务以抢红包</string>
+</resources>

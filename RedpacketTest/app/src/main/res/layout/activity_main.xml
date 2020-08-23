@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="抢红包系统v-1.0"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/redpacket"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用须知："
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notification" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="①输入你的锁屏密码"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notification" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="②点击按钮开启服务"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <EditText
+                android:id="@+id/edit_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Please input your password"/>
+            <Button
+                android:id="@+id/go_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启用服务"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
